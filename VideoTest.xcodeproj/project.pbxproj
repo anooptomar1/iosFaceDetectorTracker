@@ -14,6 +14,7 @@
 		C18DB01B202D50DA004BCE10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18DB019202D50DA004BCE10 /* LaunchScreen.storyboard */; };
 		C18DB026202D50DB004BCE10 /* VideoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DB025202D50DB004BCE10 /* VideoTestTests.swift */; };
 		C18DB031202D50DB004BCE10 /* VideoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DB030202D50DB004BCE10 /* VideoTestUITests.swift */; };
+		C18DB03F202D51DB004BCE10 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DB03E202D51DB004BCE10 /* VideoCapture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C18DB02C202D50DB004BCE10 /* VideoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18DB030202D50DB004BCE10 /* VideoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTestUITests.swift; sourceTree = "<group>"; };
 		C18DB032202D50DB004BCE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18DB03E202D51DB004BCE10 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C18DB017202D50DA004BCE10 /* Assets.xcassets */,
 				C18DB019202D50DA004BCE10 /* LaunchScreen.storyboard */,
 				C18DB01C202D50DA004BCE10 /* Info.plist */,
+				C18DB03E202D51DB004BCE10 /* VideoCapture.swift */,
 			);
 			path = VideoTest;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18DB013202D50DA004BCE10 /* ViewController.swift in Sources */,
+				C18DB03F202D51DB004BCE10 /* VideoCapture.swift in Sources */,
 				C18DB011202D50DA004BCE10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PP7XAEAL8;
+				DEVELOPMENT_TEAM = 46T32785L3;
 				INFOPLIST_FILE = VideoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pete.VideoTest;
@@ -442,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8PP7XAEAL8;
+				DEVELOPMENT_TEAM = 46T32785L3;
 				INFOPLIST_FILE = VideoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pete.VideoTest;
